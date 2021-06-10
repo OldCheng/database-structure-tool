@@ -1,0 +1,28 @@
+server:
+  port: 9081
+spring:
+  aop:
+    auto: true
+  datasource:
+#    driver-class-name: com.mysql.jdbc.Driver
+#    type: com.alibaba.druid.pool.DruidDataSource
+#    url: jdbc:mysql://47.106.78.207
+#    username: root
+#    password: Gao410ban!
+    driver-class-name: com.mysql.jdbc.Driver
+    type: com.alibaba.druid.pool.DruidDataSource
+    url: jdbc:mysql://10.16.12.119
+    username: appuser
+    password: Welcome321
+#    driver-class-name: com.mysql.jdbc.Driver
+#    type: com.alibaba.druid.pool.DruidDataSource
+#    url: jdbc:mysql://192.168.200.10
+#    username: root
+#    password: 123456
+  resources:
+    static-locations:
+    - classpath:/static/html/
+
+#mybatis:
+#  mapper-locations: classpath:mapper/*Mapper.xml
+#  type-aliases-package: cn.database.entity
